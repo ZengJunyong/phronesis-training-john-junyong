@@ -2,8 +2,8 @@
 import RebillyInstruments from '@rebilly/instruments';
 import {onMounted, ref} from "vue";
 
-const strategyUsdId = 'dep_str_01JAZR9M6QEB792433FNEQKCTV'
-const strategyCadId = 'dep_str_01JAZRCMXF0K3GH8NYGYYK21TJ'
+const strategyUsdId = 'dep_str_01JBE9BEKPM03V64BDKP6PBWGP'
+const strategyCadId = 'dep_str_01JBE9J2MPAZ1DZVWR590BZ14S'
 const currency = ref('USD');
 
 async function createDepositWithStrategy(currency, strategyId) {

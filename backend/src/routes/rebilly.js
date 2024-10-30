@@ -1,11 +1,12 @@
 import express from 'express';
 import RebillyAPI from 'rebilly-js-sdk';
 
-const REBILLY_API_SECRET_KEY = "sk_sandbox_i1a-6LXuIdnizfCXj5AjWUik1lMqRCGde9tXAT0";
-const REBILLY_WEBSITE_ID = "google.com";
-const REBILLY_ORGANIZATION_ID = 'phronesis---summitvilla';
+const REBILLY_API_SECRET_KEY = "xyz";
+const REBILLY_WEBSITE_ID = "casino-deposit-form";
+const REBILLY_ORGANIZATION_ID = 'phoronesis-john-junyong';
 const api = RebillyAPI({
     sandbox: true,
+    organizationId: REBILLY_ORGANIZATION_ID,
     apiKey: REBILLY_API_SECRET_KEY,
 });
 
@@ -36,7 +37,7 @@ router.post('/invoices', async (req, res) => {
 
 router.post('/deposit-with-strategy', async (req, res) => {
     const {currency, strategyId} = req.body;
-    const customerId = 'cus_01J72X65QDGA4DJ7FXSSXMRYRR';
+    const customerId = 'cus_01JBEA7J0YR58WCC06R0TAPCE5';
     try {
         const {fields: {token: exchangeToken}} = await api.customerAuthentication.login({
             data: {
@@ -94,6 +95,7 @@ router.post('/deposit-with-strategy', async (req, res) => {
         });
         res.json({token, depositRequestId});
     } catch (err) {
+        console.log(err)
         res.status(500).json({"error": err.message});
     }
 });
