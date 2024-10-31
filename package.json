@@ -11,7 +11,8 @@
   "dependencies": {
     "vue": "^3.4.29",
     "vue-router": "^4.3.3",
-    "@rebilly/instruments": "^9.84.2"
+    "@rebilly/instruments": "^9.84.2",
+    "rebilly-js-sdk": "^56.61.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
