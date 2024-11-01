@@ -1,0 +1,23 @@
+### GET
+GET http://localhost/rebilly/get
+    ?param=param-from-get
+
+### POST
+POST http://localhost/rebilly/post
+Content-Type: application/json
+
+{
+	"param": "param-from-post"
+}
+
+### invoices
+POST https://nodejs-serverless-function-express-eight-zeta.vercel.app/rebilly/invoices
+
+### deposit-with-strategy
+POST https://nodejs-serverless-function-express-eight-zeta.vercel.app/rebilly/deposit-with-strategy
+Content-Type: application/json
+
+{
+	"currency": "USD",
+	"strategyId": "dep_str_01JBE9BEKPM03V64BDKP6PBWGP"
+}
