@@ -11,6 +11,7 @@
 			}
 		}
 	],
+	"buildCommand": "cp package.rebilly-js-sdk.json node_modules/rebilly-js-sdk/package.json && npm run build",
 	"routes": [
 		{
 			"src": "/(.*)",
