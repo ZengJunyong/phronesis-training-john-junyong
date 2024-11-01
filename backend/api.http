@@ -11,13 +11,13 @@ Content-Type: application/json
 }
 
 ### invoices
-POST http://localhost/rebilly/invoices
+POST https://nodejs-serverless-function-express-eight-zeta.vercel.app/rebilly/invoices
 
 ### deposit-with-strategy
-POST http://localhost/rebilly/deposit-with-strategy
+POST https://nodejs-serverless-function-express-eight-zeta.vercel.app/rebilly/deposit-with-strategy
 Content-Type: application/json
 
 {
 	"currency": "USD",
-	"strategyId": "dep_str_01JAZR9M6QEB792433FNEQKCTV"
+	"strategyId": "dep_str_01JBE9BEKPM03V64BDKP6PBWGP"
 }

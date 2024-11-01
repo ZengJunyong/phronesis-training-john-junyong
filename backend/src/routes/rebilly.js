@@ -1,7 +1,8 @@
+import 'dotenv/config'
 import express from 'express';
 import RebillyAPI from 'rebilly-js-sdk';
 
-const REBILLY_API_SECRET_KEY = "xyz";
+const REBILLY_API_SECRET_KEY = process.env.API_KEY;
 const REBILLY_WEBSITE_ID = "casino-deposit-form";
 const REBILLY_ORGANIZATION_ID = 'phoronesis-john-junyong';
 const api = RebillyAPI({

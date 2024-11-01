@@ -19,7 +19,7 @@ const startServer = async () => {
     }
 };
 
-await startServer();
+startServer();
 
 const handleExit = async (signal) => {
     process.exit(0);
