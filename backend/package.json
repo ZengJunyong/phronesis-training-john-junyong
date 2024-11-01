@@ -2,7 +2,6 @@
 	"name": "backend",
 	"version": "1.0.0",
 	"main": "src/app.js",
-	"type": "module",
 	"scripts": {
 		"start": "node --experimental-modules --es-module-specifier-resolution=node src/app.js",
 		"dev": "nodemon --experimental-modules --es-module-specifier-resolution=node src/app.js"
