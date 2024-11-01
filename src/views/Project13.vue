@@ -5,11 +5,9 @@ import {onMounted, ref} from "vue";
 const strategyUsdId = 'dep_str_01JBE9BEKPM03V64BDKP6PBWGP'
 const strategyCadId = 'dep_str_01JBE9J2MPAZ1DZVWR590BZ14S'
 const currency = ref('USD');
-// const url = 'localhost';
-const url = '45.32.64.188';
 
 async function createDepositWithStrategy(currency, strategyId) {
-  const response = await fetch(`http://${url}/rebilly/deposit-with-strategy`, {
+  const response = await fetch(`${import.meta.env.VITE_API_URL}/rebilly/deposit-with-strategy`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
