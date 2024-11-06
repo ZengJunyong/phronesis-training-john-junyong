@@ -4,10 +4,14 @@
     <li>
       <RouterLink to="/debriefs/13">Project 13</RouterLink>
     </li>
+    <li>
+      <RouterLink to="/debriefs/14">Project 14</RouterLink>
+    </li>
   </ul>
 </template>
 <style scoped>
-h3, ul {
+h3,
+ul {
   text-align: left;
 }
 
@@ -16,5 +20,4 @@ li {
 }
 </style>
 
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
