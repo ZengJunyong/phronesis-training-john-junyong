@@ -14,6 +14,11 @@ const router = createRouter({
       component: () => import('../views/Project16.vue')
     },
     {
+      path: '/project20',
+      name: 'project20',
+      component: () => import('../views/Project20.vue')
+    },
+    {
       path: '/debriefs',
       name: 'debriefs',
       component: () => import('../views/debriefs/Debriefs.vue')
@@ -52,6 +57,11 @@ const router = createRouter({
       path: '/debriefs/19',
       name: 'debrief-19',
       component: () => import('../views/debriefs/19/19.vue')
+    },
+    {
+      path: '/debriefs/20',
+      name: 'debrief-20',
+      component: () => import('../views/debriefs/20/20.vue')
     }
   ]
 })
