@@ -3,7 +3,7 @@
   <ul>
     <li>
       <h2>Which teammates executed the project?</h2>
-      <p></p>
+      <p>John, Junyong</p>
     </li>
     <li>
       <h2>What made you smile?</h2>
