@@ -15,7 +15,6 @@
       <h2>What did you find confusing? Did you encounter any issues?</h2>
       <ul>
         <li>When searching on docs, blog posts are still first hits</li>
-        \
         <li>
           In the timeline when a transaction is blocked, it shows it blocked by
           the user that created the blocklist. Not the blocklist title or
