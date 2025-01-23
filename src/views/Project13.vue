@@ -2,7 +2,7 @@
 import RebillyInstruments from '@rebilly/instruments';
 import {onMounted, ref} from "vue";
 
-const strategyUsdId = 'dep_str_01JBE9BEKPM03V64BDKP6PBWGP'
+const strategyUsdId = 'dep_str_01JFENK4XZX20F45NNGZT4NG82'
 const strategyCadId = 'dep_str_01JBE9J2MPAZ1DZVWR590BZ14S'
 const currency = ref('USD');
 
