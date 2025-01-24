@@ -9,9 +9,9 @@ import {RouterLink, RouterView} from 'vue-router'
     <div class="wrapper">
 
       <nav>
-        <RouterLink to="/project13">Project 13/14/15/18/19/23</RouterLink>
+        <RouterLink to="/project13">Project 13/14/15/18/19</RouterLink>
         <RouterLink to="/project16">Project 16/17</RouterLink>
-        <RouterLink to="/project20">Project 20</RouterLink>
+        <RouterLink to="/project20">Project 20/23</RouterLink>
         <RouterLink to="/debriefs"
                     style="color: white;background: black; font-weight: bold; padding: 6px 12px;border-radius: 4px;">
           Debriefs
@@ -59,30 +59,3 @@ nav a:first-of-type {
   border: 0;
 }
 
-@media (min-width: 2048px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
-}
-</style>

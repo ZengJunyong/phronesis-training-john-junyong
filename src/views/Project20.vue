@@ -13,11 +13,11 @@ async function setup() {
     });
     const data = await response.json();
     const mountElement = document.querySelector('#deposit');
-    const token = data.token;
+    const cashierToken = data.token;
     if (window.RebillyCashier) {
         RebillyCashier.renderDeposit({
             mountElement,
-            token,
+            cashierToken,
         });
     } else {
         console.error('RebillyCashier library not loaded');
@@ -53,12 +53,3 @@ onMounted(async () => {
   --r-payment-method-item-border-width: 4px;
 }
 
-.deposit-container {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  max-width: 800px;
-  width: 100%;
-  margin-bottom: 200px;
-}
-</style>
