@@ -52,4 +52,12 @@ onMounted(async () => {
   --r-payment-method-item-border-color: green;
   --r-payment-method-item-border-width: 4px;
 }
-
+.deposit-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+  margin-bottom: 200px;
+}
+</style>
