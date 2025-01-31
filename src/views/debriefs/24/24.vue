@@ -33,10 +33,19 @@
           customers?
         </li>
         <li>
-            There's no easy way to priorise gateway seletion in a normal linear way, that doesnt involve round robin or randomness
-            in the next selection. We want to go from top to bottom, and select the first one that works. Originally we set up the filters
-            in the gateway settings themselves, thinking we could order the selection like in payment methods. But this was not possible, as 
-            the pick gateway account action does not allow that type of ordering.
+          There's no easy way to priorise gateway seletion in a normal linear
+          way, that doesnt involve round robin or randomness in the next
+          selection. We want to go from top to bottom, and select the first one
+          that works. Originally we set up the filters in the gateway settings
+          themselves, thinking we could order the selection like in payment
+          methods. But this was not possible, as the pick gateway account action
+          does not allow that type of ordering.
+        </li>
+        <li>
+          We couldnt understand how to generate a card easily with one of the
+          3DS BINs. So we added 411111 as a BIN in our filter list. The docs say
+          we can use the 3ds site and generate a card number but it didnt jump
+          out as easy to find or do.
         </li>
       </ul>
     </li>
@@ -46,24 +55,34 @@
         <li>
           Gateway settings errors do not highlight in the UI. (Here website is
           misisng).<br />
-          <a href="https://github.com/Rebilly/rebilly/issues/9859">https://github.com/Rebilly/rebilly/issues/9859</a>
+          <a href="https://github.com/Rebilly/rebilly/issues/9859"
+            >https://github.com/Rebilly/rebilly/issues/9859</a
+          >
           <br />
         </li>
         <li>
-            Recomm: edit customer dialog validation never ends<br /> 
-            <a href="https://github.com/Rebilly/rebilly/issues/9858">https://github.com/Rebilly/rebilly/issues/9858</a>
+          Recomm: edit customer dialog validation never ends<br />
+          <a href="https://github.com/Rebilly/rebilly/issues/9858"
+            >https://github.com/Rebilly/rebilly/issues/9858</a
+          >
         </li>
         <li>
-            Address auto complete not working in deposit form.<br />
-            <a href="https://github.com/Rebilly/rebilly/issues/9503">https://github.com/Rebilly/rebilly/issues/9503</a>
+          Address auto complete not working in deposit form.<br />
+          <a href="https://github.com/Rebilly/rebilly/issues/9503"
+            >https://github.com/Rebilly/rebilly/issues/9503</a
+          >
         </li>
         <li>
-            Deposit form: Challege flow doesnt cover scrolled screen <br />
-            <a href="https://github.com/Rebilly/rebilly/issues/9860">https://github.com/Rebilly/rebilly/issues/9860</a>
+          Deposit form: Challege flow doesnt cover scrolled screen <br />
+          <a href="https://github.com/Rebilly/rebilly/issues/9860"
+            >https://github.com/Rebilly/rebilly/issues/9860</a
+          >
         </li>
         <li>
-            Recomm: filters in pick gateway shows too many items <br />
-            <a href="https://github.com/Rebilly/rebilly/issues/9861">https://github.com/Rebilly/rebilly/issues/9861</a>
+          Recomm: filters in pick gateway shows too many items <br />
+          <a href="https://github.com/Rebilly/rebilly/issues/9861"
+            >https://github.com/Rebilly/rebilly/issues/9861</a
+          >
         </li>
       </ul>
     </li>
