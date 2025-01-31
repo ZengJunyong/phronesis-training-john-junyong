@@ -38,20 +38,6 @@ onMounted(async () => {
 </template>
 
 <style>
-:root {
-  --r-primary: orange;
-  --r-background: #201f55;
-  --r-text: white;
-  --r-button-text-color: #333;
-  --r-payment-method-item-label-color:  #333;
-  --r-input-text-color: #333;
-  --r-text-muted: #888;
-  --r-button-border-radius: 0px;
-  --r-border-radius: 0px;
-  --r-font-family: 'Inter', sans-serif;
-  --r-payment-method-item-border-color: green;
-  --r-payment-method-item-border-width: 4px;
-}
 .deposit-container {
   display: flex;
   justify-content: center;
