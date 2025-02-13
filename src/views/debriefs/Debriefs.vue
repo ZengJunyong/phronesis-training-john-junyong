@@ -40,6 +40,9 @@
     <li>
       <RouterLink to="/debriefs/25">Project 25</RouterLink>
     </li>
+    <li>
+      <RouterLink to="/debriefs/26">Project 26</RouterLink>
+    </li>
   </ul>
 </template>
 <style scoped>
