@@ -18,6 +18,7 @@
           Invoice was unpaid but subscription was active at the first, we needed to check it out why:
           <br>
           Just need to make sure to click Collect Payment when issuing the quote to make sure the payment is collected before reactivating the subscription. Accepting the quote reactivates the subscription and issues the invoice, but does not collect a payment immediately, even if that option was selected in the quote creation step.
+          The Collect Payment button is green, unlike the others, so it should be clear enough.
         </li>
       </ul>
     </li>
