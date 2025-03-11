@@ -30,7 +30,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  <h1>Casino deposit (again!)</h1>
+  <h1>Project 29: Casino deposit (again!) <br>Project 30: Collect KYC documents before deposit</h1>
 
   <div id="deposit" class="deposit-container">
     <!-- Any HTMLElement may contain the Rebilly Cashier JavaScript library. -->
