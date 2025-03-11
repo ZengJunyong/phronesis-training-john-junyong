@@ -38,7 +38,7 @@
           so maybe we can change that sentence to something like <span style="font-weight: bold; color: yellow;">`We will attempt to verify your document manually
           ASAP. Once it's approved, we'll send you an email to continue finishing the deposit.`</span> Also, remove the
           <span style="font-weight: bold; color: yellow;">`Continue`</span> button; it's almost useless. <br>
-          ❌ Because we got stuck on this step, we didn't finish this task: <span style="font-weight: bold; color: yellow;">If the KYC documents are rejected, the transaction should be declined</span><br>
+          ❌ Because we got stuck on this step, we didn't finish this task: <span style="font-weight: bold; color: yellow;">If the KYC documents are rejected, the transaction should be declined</span>. <span style="font-weight: bold; color: red;">Even though we rejected the KYC files in Recomm, and clicked the `Continue` button again, we can't get a declined transaction.</span><br>
           <img src="./continue.png"
                                                               style="width: 90%"/>
         </li>
