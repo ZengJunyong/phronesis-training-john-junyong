@@ -1,6 +1,6 @@
 <template>
   <div style="text-align: left; padding: 0 25px">
-    <h3>Project 32: Collect KYC documents</h3>
+    <h3>Project 32: Support team</h3>
   </div>
   <ul>
     <li>
@@ -20,7 +20,7 @@
         <li>
           In the Role form, the "permissions" textarea does not have any meaningful instructions.
           <br>
-          It is unclear whether multiple permissions need to be in a new line or separated by commas. 
+          It is unclear whether multiple permissions need to be in a new line or separated by commas.
           <br>
           Also, we accidentally added whitespace and it triggers a validation error. FE logic should remove the whitespace.
           <div style="margin-top: 15px">
@@ -76,7 +76,7 @@
           </div>
         </li>
         <li>
-          In customer action, the "Billing portal link" is available even when users do have sufficient permissions. 
+          In customer action, the "Billing portal link" is available even when users do have sufficient permissions.
           <br>
           (POST /authentication-tokens)
         </li>
