@@ -26,8 +26,8 @@ onMounted(() => {
 </script>
 
 <template>
-  <div style="padding-top: 30px">
-    <div class="rebilly-instruments-summary"></div>
-    <div class="rebilly-instruments"></div>
+  <div class="form-wrapper">
+    <section class="rebilly-instruments-summary"></section>
+    <section class="rebilly-instruments"></section>
   </div>
 </template>
