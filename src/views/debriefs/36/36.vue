@@ -1,6 +1,6 @@
 <template>
   <div style="text-align: left; padding: 0 25px">
-    <h3>Project 34: Custom domains</h3>
+    <h3>Project 36: Custom domains</h3>
   </div>
   <ul>
     <li>
