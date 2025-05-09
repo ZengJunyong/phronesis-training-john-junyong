@@ -10,7 +10,7 @@
   <h2>What made you smile?</h2>
   <ul>
     <li>
-      When we first logged in to the Paypal account, it was all in mandarin 
+      When we first logged in to the Paypal account, it was all in mandarin
       so Junyong was trying to find the setting to change back the language to english.
     </li>
     <li>
@@ -85,7 +85,7 @@
       <br />
       And the Order details section loads infinitely.
       <br />
-      Not sure how to replicate it. Seems that the issue is intermittent.
+      Not sure how to replicate it. Seems that the issue is intermittent. I remember the error is from `/summary-metrics` API, maybe it's caused by ElasticSearch at that time
       <div style="margin-top: 15px">
         <img src="./5.png" />
       </div>
